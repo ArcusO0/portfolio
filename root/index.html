@@ -1,1 +1,105 @@
-<p>hello world!</p>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="app.js"></script>
+    <title>Marcus Portfolio</title>
+</head>
+
+<body>
+    <div class="header">
+        <a style="margin-top:10px;margin-left:10px;height:auto;font-size: 24px;font-weight: bold;">Marcus Loh Junwei</a>
+        <p style="margin-top:17px;margin-left:15px;height:auto;font-size: 14px;">Software developer</p>
+
+        <a style="margin-top:10px;margin-left:40%;height:auto;font-size: 20px;font-weight: bold;" href="#about">About Me</a>
+        <a style="margin-top:10px;margin-left:20px;height:auto;font-size: 20px;font-weight: bold;" href="#achievements">Achievements</a>
+        <a style="margin-top:10px;margin-left:20px;height:auto;font-size: 20px;font-weight: bold;" href="#projects">Projects</a>
+    </div>
+    <div class="hidden bigdiv" style="display:flex;">
+        <div style="position:relative;left:15%;">
+            <H1>Hi!<br>I'm Marcus</H1>
+
+        </div>
+        <div style="position:relative;left:25%;width:30%;">
+            <h3>I am a software developer who has been learning about coding since I was 14. I specialize in python development but I am also confident in my ability to do web development and program in other languages such as Java and C#.</h3>
+        </div>
+        <div style="height: 95vh; width:170px;position:relative;left:35%" class="navbuttons">
+            <a href="#about"><button class="navbutton hidden" >About me</button></a>
+            <a href="#achievements"><button class="navbutton hidden">Achievements</button></a>
+            <a href="#projects"><button class="navbutton hidden">Projects</button></a>
+        </div>
+    </div>
+    <div id="about" class="bigdiv hidden" style="height: max-content;">
+        <H1 style="margin-top: 10%;">About me</H1>
+        <H2>Leadership experience</H2>
+        <div style="display:flex;">
+            <div style="position:relative;left:20%;">
+                <H1>2019-2020</H1>
+                <br><br><br><br><br>
+                <h1>2020-2021</h1>
+
+            </div>
+            <div style="position:relative;left:50%;width:30%;">
+                <h2>CCA team leader</h2>
+                I was the team leader for an AV team of 10 people in my CCA, infocomm club, where we would have to set up and man the equipment that was used during morning assembly.
+                <br><br><br>
+                <h2>CCA chairperson</h2>
+                After my teachers saw my leadership abilities, I was appointed as the chairperson of the club where I helped to plan events as well as overseeing 4 AV teams of 10 people each.
+            </div>
+        </div>
+        <H2>Education</H2>
+        <div style="display:flex;">
+            <div style="position:relative;left:1%;">
+                <H1>2018-2021</H1>
+                <br><br><br>
+                <h1>2022-present</h1>
+
+            </div>
+            <div style="position:relative;left:45%;width:40%;">
+                <h2>Zhonghua Secondary School | O-level</h2>
+                Raw ELR2B2 12 points, A2 in computing
+                <br>
+                <h2>Nanyang Polytechnic | Diploma in Information Technology</h2>
+                GPA 3.46(as of 8 March 2024)
+            </div>
+        </div>
+    </div>
+    <div id="achievements" class="bigdiv hidden">
+        <H1 style="margin-top: 10%;">Achievements</H1>
+        <h3>University of New South Wales ICAS Digital Technologies 2018 Distinction
+        </h3>
+        <h3>Bebras Computational Thinking Challenge 2019 Silver award</h3>
+        <h3>Design Thinking with Robotics and Computational Thinking International Competition 2020 Bronze Award</h3>
+        <h3>SASMO Silver Award 2018</h3>
+        <h3>SASMO Bronze Award 2019 & 2020</h3>
+    </div>
+    <div id="projects" class="bigdiv hidden">
+        <H1 style="margin-top: 10%;">Projects</H1>
+        <div style="display:flex;">
+            <div style="position:relative;left:15%;width:25%;">
+                <H1>Mastermind mobile game</H1>
+                <br> I recreated the classic game of Mastermind using Android Studio and Java. I learnt the skills required within a month and the app even comes with options to change from light to dark theme, to enable or disable the sound effects and
+                to change the sprites of the circles
+                <br><br>
+                <h1>Stock information web scraper</h1>
+                <br>I created a python script to scrape important information for multiple stocks off of a stocks website which would be reflected in either a google sheet or a Microsoft Excel document.
+                <br><br><br><br><br><br>
+                <h1>Bus timing website</h1>
+                Created an app using python to find out when the next bus would come at bus stops near me by getting the information from an API that was done by LTA. The user would also be able to select what information he/she would like to see such as how full the
+                bus is or whether the bus is wheelchair accessible or not.
+            </div>
+
+            <div style="display: flex; flex-direction: column; align-items: center;position:relative;width: 20%;left:35%">
+                <img src="./images/icon.png" alt="" style="max-width: 100%;">
+                <br>
+                <img src="./images/stocks.png" alt="">
+                <br><br>
+                <img src="./images/bus.png" alt="" style="width: 200%;height: auto;">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
